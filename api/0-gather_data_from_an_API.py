@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """script"""
 
-"""
-from urllib import request
 import sys
+from urllib import request
 
+
+"""
 # take employee ID
 employee_ID = sys.argv[1]
 
