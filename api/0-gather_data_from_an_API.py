@@ -4,7 +4,7 @@
 import sys
 from urllib import request
 
-if __namr__ == "__main__":
+if __name__ == "__main__":
   pass
   """documentary
   employee_ID = sys.argv[1]
