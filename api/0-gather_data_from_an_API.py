@@ -5,19 +5,15 @@ import sys
 from urllib import request
 
 if __namr__ == "__main__":
-  """ block use as module """
-
-  # take employee ID
   employee_ID = sys.argv[1]
+  url = "https://jsonplaceholder.typicode.com/todos"
+  url_user = "https://jsonplaceholder.typicode.com/users"
 
-  # formated the url with the employee ID
-  url = "https://jsonplaceholder.typicode.com/todos/{}".format(employee_ID)
-
+"""
   # make request and save in 'html' var
   with request.urlopen(url) as response:
    html = response.read()
 
-"""
 # format output to example:
 # Employee Ervin Howell is done with tasks(8/20):
 
