@@ -4,8 +4,8 @@
 import sys
 from urllib import request
 
-if __namr__ == "__main__"
-  pass
+if __namr__ == "__main__":
+  """ block use as module """
 
   # take employee ID
   employee_ID = sys.argv[1]
