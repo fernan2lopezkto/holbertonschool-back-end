@@ -29,7 +29,7 @@ if __name__ == '__main__':
     for tsk in tasks.json():
         if tsk['userId'] == emp_id:
             total_task += 1
-            if tak['completed']:
+            if tsk['completed']:
                 task_ok += 1
                 task_title.append(tak['title'])
 
