@@ -16,7 +16,6 @@ if __name__ == '__main__':
 
     users = requests.get(users_url)
     tasks = requests.get(todo_url)
-
     for user in users.json():
         if user['id'] == emp_id:
             emp_name = user['name']
@@ -24,7 +23,7 @@ if __name__ == '__main__':
 
     task_ok = 0
     total_task = 0
-    task_title =[]
+    task_title = []
 
     for tsk in tasks.json():
         if tsk['userId'] == emp_id:
