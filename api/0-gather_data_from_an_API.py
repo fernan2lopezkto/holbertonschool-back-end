@@ -31,7 +31,7 @@ if __name__ == '__main__':
             total_task += 1
             if tsk['completed']:
                 task_ok += 1
-                task_title.append(tak['title'])
+                task_title.append(tsk['title'])
 
     print('Employee {} is done with tasks({}/{}):'.format(emp_name, task_ok, total_task))
 
