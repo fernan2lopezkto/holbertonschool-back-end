@@ -16,7 +16,6 @@ if __name__ == '__main__':
 
     users = requests.get(users_url)
     tasks = requests.get(todo_url)
-
     for user in users.json():
         if user['id'] == emp_id:
             eN = user['name']
