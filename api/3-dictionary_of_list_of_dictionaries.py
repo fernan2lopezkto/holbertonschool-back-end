@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-""" 
-script to export data in the JSON format
-"""
+""" script to export data in the JSON format """
+
 
 import json
 import requests
+
 
 if __name__ == '__main__':
     '''code'''
