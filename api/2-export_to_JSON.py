@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 script to export data in the JSON format
 """
 
@@ -25,8 +25,8 @@ if __name__ == '__main__':
             eN = user['name']
             us_name = user['username']
             break
-                
-    # Format must be: 
+
+    # Format must be:
     # { "USER_ID": [{"task": "TASK_TITLE",
     #               "completed": TASK_COMPLETED_STATUS,
     #               "username": "USERNAME"},
