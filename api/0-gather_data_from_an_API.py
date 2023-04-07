@@ -2,7 +2,6 @@
 """ Request a Rest API"""
 
 
-import json
 import requests
 from sys import argv
 
