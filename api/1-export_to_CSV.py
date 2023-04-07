@@ -28,7 +28,8 @@ if __name__ == '__main__':
     # File name must be: USER_ID.csv
 
     with open(f_name, 'w') as f:
-        writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
+        writer = csv.writer(f, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_ALL)
         for tsk in tasks.json():
             if tsk["userId"] == emp_id:
                 t_Ok = tsk["completed"]
