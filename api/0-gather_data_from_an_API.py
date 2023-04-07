@@ -28,9 +28,9 @@ if __name__ == '__main__':
 
     for tsk in tasks.json():
         if tsk['userId'] == emp_id:
-            total_task += 1
+            tTL += 1
             if tsk['completed']:
-                task_ok += 1
+                tOK += 1
                 task_title.append(tsk['title'])
 
     print('Employee {} is done with tasks({}/{}):'.format(eN, tOK, tTL))
