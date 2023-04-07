@@ -24,8 +24,8 @@ if __name__ == '__main__':
             us_name = user['username']
             break
 
-    #Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
-    #File name must be: USER_ID.csv
+    # Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
+    # File name must be: USER_ID.csv
 
     with open(f_name, 'w') as f:
         writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
